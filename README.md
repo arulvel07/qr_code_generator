@@ -29,7 +29,7 @@ The API accepts a URL as a query parameter and returns a **PNG image** containin
 
 Start the FastAPI server with: `uvicorn main:app`
 
-The server will start at: `http://127.0.0.1:8000`
+The server will start at: <http://127.0.0.1:8000>
 
 ---
 
@@ -58,7 +58,7 @@ Generates a QR code for a given URL and returns it as a **PNG image**.
 | url | string | The URL that will be encoded into the QR code |
 
 **Example Request**
-`http://127.0.0.1:8000/qr?url=https://google.com`
+<http://127.0.0.1:8000/qr?url=https://google.com>
 
 **Response**
 
